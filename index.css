@@ -11,7 +11,8 @@ body .core {
   justify-content: space-around;
   align-items: center;
   width: 70%;
-  background-color: #141a1f;
+  background-color: #21282e;
+  border-radius: 5px;
 }
 body .core h2 {
   display: flex;
@@ -22,11 +23,11 @@ body .core h2 {
   border-radius: 6px;
   padding: 10px;
   color: white;
-  background-color: #0f2134;
+  background-color: #464b85;
 }
 body .core .masonry {
   height: 40px;
   width: 100%;
   margin-top: 5px;
-  background-color: #0059b2;
+  background-color: transparent;
 }/*# sourceMappingURL=index.css.map */
