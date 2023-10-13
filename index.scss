@@ -11,26 +11,30 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 70%;
-    background-color: #21282e;
+    background-color: white;
     border-radius: 5px;
 
-    h2{
+    .masonry{
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      height: 40px;
-      border-radius: 6px;
-      padding: 10px;
-      color: white;
-      background-color: #464b85;
+      justify-content: space-between;
+      width: 99%;
+
+      .col{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+
+        img{
+          width: 100%;
+          margin-top: 4px;
+          margin-bottom: 4px;
+        }
+      }
     }
-  
-    .masonry{
-      height: 40px;
+
+    .divinEnfant{
       width: 100%;
-      margin-top: 5px;
-      background-color: transparent;
     }
   }
 }
